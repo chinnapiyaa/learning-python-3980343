@@ -4,9 +4,11 @@
 #
 
 
+import os
+from os import path
 
 # Print the name of the OS
-
+print("Operating System:", os.name)
 
 # Check for item existence and type
 
