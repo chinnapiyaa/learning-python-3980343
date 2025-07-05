@@ -15,6 +15,10 @@ print(doc.firstChild.tagName)
 
 # get a list of XML tags from the document and print each one
 
-    
+skills = doc.getElementsByTagName("skill")
+print("Skills:", skills.length)
+for skill in skills:
+    print("Skill:", skill.getAttribute("name"))
+    print("Level:", skill.getAttribute("level"))
 # create a new XML tag and add it into the document
 
